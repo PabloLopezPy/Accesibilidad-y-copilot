@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Accesible</title>
+</head>
+<body>
+    <header role="banner">
+        <h1>Noticias Recientes</h1>
+    </header>
+    <main role="main">
+        <section aria-labelledby="news-title">
+            <h2 id="news-title">Últimas Noticias</h2>
+            <article aria-labelledby="news1-title">
+                <h3 id="news1-title">Título de la Noticia 1</h3>
+                <p>Descripción de la noticia 1.</p>
+                <img src="noticia1.jpg" alt="Imagen de la Noticia 1" aria-label="Noticia 1">
+            </article>
+            <article aria-labelledby="news2-title">
+                <h3 id="news2-title">Título de la Noticia 2</h3>
+                <p>Descripción de la noticia 2.</p>
+                <img src="noticia2.jpg" alt="Imagen de la Noticia 2" aria-label="Noticia 2">
+            </article>
+            <a href="#" aria-label="Leer más sobre las noticias">Leer más</a>
+        </section>
+    </main>
+    <footer role="contentinfo">
+        <p>&copy; 2023 Página Accesible</p>
+    </footer>
+</body>
+</html>
